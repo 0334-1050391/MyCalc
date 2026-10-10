@@ -1,0 +1,6 @@
+{
+  "name": "OmniCalc AI - Scientific & AI Problem Solver",
+  "description": "An intelligent scientific calculator featuring high-precision arithmetic, trigonometry, calculus functions, natural language word problem breakdown, and step-by-step mathematical reasoning.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

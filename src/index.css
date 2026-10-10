@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .btn-sci {
+    @apply py-3 sm:py-3.5 rounded-xl font-mono text-xs sm:text-sm font-medium bg-slate-800/90 text-slate-300 hover:text-white hover:bg-slate-700/90 border border-slate-700/60 active:scale-95 transition-all cursor-pointer select-none text-center flex items-center justify-center;
+  }
+
+  .btn-num {
+    @apply py-3.5 sm:py-4 rounded-xl font-mono text-base sm:text-lg font-semibold bg-slate-800 text-slate-100 hover:bg-slate-700 hover:text-white border border-slate-700/70 active:scale-95 transition-all cursor-pointer select-none text-center flex items-center justify-center shadow-sm;
+  }
+
+  .btn-op {
+    @apply py-3.5 sm:py-4 rounded-xl font-mono text-lg sm:text-xl font-bold bg-amber-500/15 text-amber-400 hover:bg-amber-500/25 border border-amber-500/30 active:scale-95 transition-all cursor-pointer select-none text-center flex items-center justify-center;
+  }
+
+  .btn-primary-fn {
+    @apply py-3.5 sm:py-4 rounded-xl font-mono text-sm sm:text-base font-semibold bg-slate-800/80 text-slate-300 hover:bg-slate-700/80 hover:text-white border border-slate-700/60 active:scale-95 transition-all cursor-pointer select-none text-center flex items-center justify-center;
+  }
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.6);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(51, 65, 85, 0.8);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 1);
+}
